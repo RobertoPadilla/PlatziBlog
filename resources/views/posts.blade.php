@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             @foreach ($posts as $post)
-                <div class="card">
+                <div class="card mb-4">
                     <div class="card-body">
                         <h5 class="card-title">{{ $post->title }}</h5>
                         <p class="card-text">
@@ -21,6 +21,7 @@
                     </div>
                 </div>
             @endforeach
+            {{ $posts->links() }}
         </div>
     </div>
 </div>
