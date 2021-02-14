@@ -28,11 +28,11 @@
                       </div>
                       <div class="form-group">
                         <label>Contenido *</label>
-                        <textarea type="body" rows="6" class="form-control" required></textarea>
+                        <textarea name="body" rows="6" class="form-control" required></textarea>
                       </div>
                       <div class="form-group">
                         <label>Contenido embebido</label>
-                        <textarea type="iframe" class="form-control"></textarea>
+                        <textarea name="iframe" class="form-control"></textarea>
                       </div>
                       <div class="form-group">
                         @csrf
